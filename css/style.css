@@ -1,0 +1,242 @@
+/*	header	*/
+
+header {
+	padding: 70px 0 0px 0;
+	width: 100%;
+    background: url('../img/banner.png') no-repeat;
+    background-size: cover;
+    background-position: center bottom;
+    }
+
+.logo { float: left; }
+
+.menu { 
+	float: right;
+	margin-top: 19px; 
+	}
+
+.menu a {
+	margin: 20px;
+	text-decoration: none;
+	color: white;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+	font-weight: 400;
+}	
+
+a {
+  text-decoration: none;
+  position: relative;
+  color: #1abc9c;
+}
+
+a:after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0%;
+  border-bottom: 3px solid #1abc9c;
+  transition: 0.4s;
+}
+
+a:hover:after { width: 100%; }
+
+#login_pop { font-weight: 700; }
+
+.menu a:hover { color: #ffffff; }
+
+.menu a:active { color: #f0f0f0; }
+
+.slider_content {
+	margin-top: 20%;
+	overflow: auto;
+}
+
+.slider {
+	margin-bottom: 15px;
+	float: left;
+	}
+
+.content { 
+	margin-left: 455px;
+}
+
+header .title {
+	color: white;
+	font-size: 30px;
+	font-weight: 400;
+	line-height: 30px;
+	text-align: left;
+	margin: 50px 0 45px 0;
+}
+
+header .description {
+	display: block;
+	color: white;
+	font-size: 18px;
+	font-weight: 300;
+	text-align: left;
+	margin: 0 0 62px 0;
+}
+
+.btn-left {
+	display: block;
+	margin: 0;
+	width: 170px;
+	height: 57px;
+	background-color: #1abc9c;
+	border-radius: 3px 4px 4px 3px;
+	border: none;
+	color: white;
+	font-size: 18px;
+	font-weight: 400;
+	float: left;
+}
+
+.btn-left:hover { background-color: #148f77; }
+
+.btn-right {
+	display: block;
+	margin: 0 14px;
+	width: 170px;
+	height: 57px;
+	background-color: #3498db;
+	border-radius: 3px 4px 4px 3px;
+	border: none;
+	color: white;
+	font-size: 18px;
+	font-weight: 400;
+	float: left;
+}
+.btn-right:hover { background-color: #217dbb; }
+
+/* end header */
+ 
+
+/* about us */
+
+.about_us { 
+	padding: 115px 0 127px 0;
+	position: relative; }
+
+.about_us-text {
+	float: left;
+	width: 63%;
+	margin-right: 92px;
+}
+
+.about_us-text > .title {
+	color: #34495e;
+	font-size: 24px;
+	font-weight: 400;
+	line-height: 24px;
+	text-align: left;
+	margin: 0 0 29px 0;
+}
+
+.about_us-text > description {
+	color: #34495e;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 30px;
+	text-align: left;
+} 
+.about_us-pic {
+	float: right;
+	position: relative;
+	margin-top: 0;
+}
+.about_us-pic img {
+	margin-right: 10px;
+}
+
+.value_big {
+	position: absolute;
+	top: 10%;
+	margin: 0;
+	left: 28%;
+	width: 100%;
+	color: #FFF;
+	font-size: 20px;
+}
+.value_small {
+	position: absolute;
+	top: 35%;
+	left: 78%;
+	width: 100%;
+	color: #FFF;
+	font-size: 15px;
+}
+
+/*about us*/
+
+
+/*advantages*/
+
+.advantages { padding-top: 76px; }
+
+.advantages p {
+    margin: 0;
+    color: #2c3e50;
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 18px;
+}
+.advantages h3 {
+	color: #2c3e50;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 24px;
+}
+
+.advantages ul {
+    padding: 0;
+    margin-top: 70px;
+    margin-bottom: 110px;
+}
+
+.advantages-list_item {
+    list-style: none;
+    display: inline-block;
+    width: 285px;
+    margin-right:35px;
+    text-align: center;
+    vertical-align: top;
+}
+
+.advantages-list_item:nth-child(3n) {
+    margin-right: 0;
+}
+
+/*advantages*/
+
+/*features*/
+
+.features {
+	padding: 61px 0 0px 0;
+	width: 100%;
+	background: url('../img/features-banner.png') no-repeat;
+    background-size: cover;
+    text-align: center;
+    margin:0 auto;
+    }
+
+ .features .slider {
+ 	overflow: auto;
+ 	
+ }
+ .features .title {
+ 	color: white;
+	line-height: 30px;
+	font-size: 30px;
+	font-weight: 400;
+ }
+ .features p {
+ 	color: white;
+	line-height: 30px;
+ 	font-size: 18px;
+	font-weight: 300;
+ }
+ 	
